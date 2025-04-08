@@ -1,0 +1,38 @@
+#!/usr/bin/env ruby
+
+# raise unless `ruby 01/day-01.rb`.lines.map(&:strip) == ["2192892", "22962826"]
+# raise unless `ruby 02/day-02.rb`.lines.map(&:strip) == ["606", "644"]
+# raise unless `ruby 03/day-03.rb`.lines.map(&:strip) == ["159892596", "92626942"]
+# raise unless `ruby 04/day-04.rb`.lines.map(&:strip) == ["2378", "1796"]
+# raise unless `ruby 05/day-05.rb`.lines.map(&:strip) == ["4569", "6456"]
+# raise unless `ruby 06/day-06.rb`.lines.map(&:strip) == ["4433", "1516"]
+# raise unless `ruby 07/day-07.rb`.lines.map(&:strip) == ["7579994664753", "438027111276610"]
+# raise unless `ruby 08/day-08-part-1.rb`.strip == "332"
+# raise unless `ruby 08/day-08-part-2.rb`.strip == "1174"
+# raise unless `ruby 09/day-09-part-1.rb`.strip == "6446899523367"
+# raise unless `ruby 09/day-09-part-2.rb`.strip == "6478232739671"
+# raise unless `ruby 10/day-10-part-1.rb`.strip == "489"
+# raise unless `ruby 10/day-10-part-2.rb`.strip == "1086"
+# raise unless `ruby 11/day-11-part-1.rb`.strip == "216042"
+# raise unless `ruby 11/day-11-part-2.rb`.strip == "255758646442399"
+# raise unless `ruby 12/day-12.rb`.lines.map(&:strip) == ["1424472", "870202"]
+# raise unless `ruby 13/day-13-part-1.rb`.strip == "33481"
+# raise unless `ruby 13/day-13-part-2.rb`.strip == "92572057880885"
+# raise unless `ruby 14/day-14-part-1.rb`.strip == "218965032"
+# raise unless `ruby 14/day-14-part-2.rb`.strip == "7036"
+# raise unless `ruby 15/day-15-part-1.rb`.strip == "1538871"
+# raise unless `ruby 15/day-15-part-2.rb`.strip == "1543338"
+# raise unless `ruby 16/day-16-part-1.rb`.strip == "114476"
+# raise unless `ruby 16/day-16-part-2.rb`.strip == "508"
+# raise unless `ruby 17/day-17.rb`.lines.map(&:strip) == ["4,3,2,6,4,5,3,2,4", "164540892147389"]
+# raise unless `ruby 18/day-18.rb`.lines.map(&:strip) == ["370", "65,6"]
+# raise unless `ruby 19/day-19.rb`.lines.map(&:strip) == ["374", "1100663950563322]
+# raise unless `ruby 20/day-20.rb`.lines.map(&:strip) == ["1524", "1033746"]
+# # raise unless `ruby 21/day-21-part-1.rb`.lines.map(&:strip) == ["105458"] # unoptimized
+# raise unless `ruby 21/day-21.rb`.lines.map(&:strip) == ["105458", "129551515895690"]
+# raise unless `ruby 22/day-22-part-1.rb`.lines.map(&:strip) == ["16299144133"]
+# raise unless `ruby 22/day-22-part-2.rb`.lines.map(&:strip) == ["1896"]
+# raise unless `ruby 23/day-23.rb`.lines.map(&:strip) == ["1366", "bs,cf,cn,gb,gk,jf,mp,qk,qo,st,ti,uc,xw"]
+# raise unless `ruby 24/day-24-part-1.rb`.lines.map(&:strip) == ["51657025112326"]
+# raise unless `ruby 24/day-24-part-2.rb`.lines.map(&:strip) == ["gbf,hdt,jgt,mht,nbf,z05,z09,z30"]
+raise unless `ruby 25/day-25.rb`.lines.map(&:strip) == ["3021"]

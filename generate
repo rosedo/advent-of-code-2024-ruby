@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require "fileutils"
+
+next_day = (Dir["*"].select { _1 =~ /^\d\d$/ }.map(&:to_i).max || 0) + 1
+next_day_str = next_day.to_s.rjust(2, "0")
+Dir.mkdir(next_day_str)
+File.write("#{next_day_str}/day-#{next_day_str}-example-input.txt", "")
+File.write("#{next_day_str}/day-#{next_day_str}-input.txt", "")
+FileUtils.cp("template.rb", "#{next_day_str}/day-#{next_day_str}.rb")
+File.write("#{next_day_str}/README.txt", "")

@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+current_day = 25
+current_part = nil
+
+if current_part
+  require "./#{current_day}/day-#{current_day}-part-#{current_part}"
+else
+  require "./#{current_day}/day-#{current_day}"
+end
